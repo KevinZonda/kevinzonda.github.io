@@ -25,6 +25,10 @@ div {
     word-wrap: break-word;
 }
 
+svg {
+    max-height: 15px;
+}
+
 html {
     font-family: 'Roboto Condensed';
 }
@@ -33,6 +37,11 @@ a {
     border-bottom: 3px solid dodgerblue;
     color: inherit;
     text-decoration: none;
+}
+
+a:hover {
+    background-color: dodgerblue;
+    color: #fff;
 }
 
 hr {
