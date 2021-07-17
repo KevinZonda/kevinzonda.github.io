@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <title>IP Info | KevinZonda</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <script type="application/javascript">
+        function getInfo(json) {
+            document.body.innerHTML = ""
+
+            document.write("IP: ", json.ip);
+            document.write("</br>");
+
+            document.write("Location: ", json.city, ", ", json.region, ", ", json.country);
+            document.write("</br>");
+
+            document.write("ISP: ", json.isp);
+            document.write("</br>");
+
+            document.write("ASN: ", json.asn)
+            document.write("</br>");
+
+            document.write("Lon & Lat: ", json.longitude, ", ", json.latitude)
+            document.write("</br>");
+
+            document.write("Timezone: ", json.timezone);
+            document.write("</br>");
+        }
+    </script>
+
+</head>
+
+<body>
+    <p>If you saw this page frozen for a long time that means something happened.</p>
+    <p>Most possible situation is that your browser plugin block the API request. Please check!</p>
+    <script type="application/javascript" src="https://api.ip.sb/geoip?callback=getInfo"></script>
+    <!-- Inspired by https://github.com/HodeUK/ip.hode.uk -->
+</body>
+
+</html>
