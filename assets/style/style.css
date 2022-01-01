@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Mono');
 
 .index-container {
     min-height: 95vh;
@@ -12,8 +12,11 @@ div {
     display: block;
 }
 
-.header1 {
+h1 {
     font-size: 1.5rem;
+}
+
+.h1a {
     background-color: rgb(0, 85, 140);
     color: #fff;
 }
@@ -32,7 +35,7 @@ svg {
 }
 
 html {
-    font-family: 'Roboto Condensed';
+    font-family: 'Noto Sans Monos', monospace;
     line-height: 1.6em;
     margin: 0px;
 }
@@ -52,4 +55,34 @@ hr {
     border: 0;
     border-top: 3px dotted black;
     margin: 1em 0;
+}
+
+lgbt-red {
+    background-color: rgb(228, 3, 3);
+    color: #fff;
+}
+
+lgbt-orange {
+    background-color: rgb(255, 140, 0);
+    color: #fff;
+}
+
+lgbt-yellow {
+    background-color: rgb(255, 237, 0);
+    color: #000;
+}
+
+lgbt-green {
+    background-color: rgb(0, 128, 38);
+    color: #fff;
+}
+
+lgbt-blue {
+    background-color: rgb(0, 77, 255);
+    color: #fff;
+}
+
+lgbt-purple {
+    background-color: rgb(117, 7, 135);
+    color: #fff;
 }
