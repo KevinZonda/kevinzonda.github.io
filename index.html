@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="description" content="A stupid international computing student whose path is computer science (G400).">
     <script src="https://unpkg.com/feather-icons"></script>
+    <script type="application/javascript">
+        function getInfo(json) {
+            var ip = document.getElementById('ip');
+            ip.innerHTML = ''.concat(json.ip, ' @ ', json.city, ', ', json.region, ', ', json.country, ' by ', json.isp);
+        }
+    </script>
 </head>
 
 <body>
@@ -51,8 +57,8 @@
                     <a href="https://github.com/AKR-Developers">🤖 AKR</a>
                 </p>
                 <p>
-                    <lgbt-blue>Tool</lgbt-blue>
-                    <a href="tools/ip.html">🔨 IP Checker</a>
+                    <lgbt-blue>Info</lgbt-blue>
+                    <a href="tools/ip.html" id="ip">🔨 IP Checker</a>
                 </p>
                 <p>
                     <lgbt-purple>More</lgbt-purple>
@@ -75,6 +81,7 @@
     <script>
         feather.replace()
     </script>
+    <script type="application/javascript" src="https://api.ip.sb/geoip?callback=getInfo"></script>
 </body>
 
 </html>
