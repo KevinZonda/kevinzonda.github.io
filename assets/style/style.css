@@ -50,6 +50,10 @@ a:hover {
     color: #fff;
 }
 
+.no {
+    border-bottom: none;
+}
+
 hr {
     border: 0;
     border-top: 3px dotted black;
