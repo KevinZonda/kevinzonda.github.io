@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fira+Mono:wght@500&family=Oxygen&display=swap');
 
 .index-container {
     min-height: 95vh;
@@ -8,12 +8,16 @@
     align-items: stretch;
 }
 
+.name {
+    font-family: 'Caveat', cursive;
+}
+
 div {
     display: block;
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .h1a {
@@ -34,7 +38,7 @@ svg {
 }
 
 html {
-    font-family: 'Noto Sans Monos', monospace;
+    font-family: 'Oxygen', sans-serif;
     line-height: 1.6em;
     margin: 0px;
 }
@@ -57,35 +61,63 @@ a:hover {
 hr {
     border: 0;
     border-top: 3px dotted black;
-    margin: 1em 0;
+    margin: 0.3em 0;
 }
 
 lgbt-red {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Fira Mono', monospace;
     background-color: rgb(228, 3, 3);
     color: #fff;
 }
 
 lgbt-orange {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Fira Mono', monospace;
     background-color: rgb(255, 140, 0);
     color: #fff;
 }
 
 lgbt-yellow {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Fira Mono', monospace;
     background-color: rgb(255, 237, 0);
     color: #000;
 }
 
 lgbt-green {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Fira Mono', monospace;
     background-color: rgb(0, 128, 38);
     color: #fff;
 }
 
 lgbt-blue {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Fira Mono', monospace;
     background-color: rgb(0, 77, 255);
     color: #fff;
 }
 
 lgbt-purple {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Fira Mono', monospace;
     background-color: rgb(117, 7, 135);
     color: #fff;
+}
+
+.l {
+    border-bottom: none;
+}
+
+p {
+    margin-block-start: 0;
+    margin-bottom: 10px;
+    line-height: 170%;
 }
