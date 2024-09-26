@@ -74,10 +74,12 @@ hr {
 
 .lgbt-red {
     background-color: rgb(228, 3, 3);
+    color: #fff;
 }
 
 .lgbt-orange {
     background-color: rgb(255, 140, 0);
+    color: #fff;
 }
 
 .lgbt-yellow {
@@ -87,21 +89,23 @@ hr {
 
 .lgbt-green {
     background-color: rgb(0, 128, 38);
+    color: #fff;
 }
 
 .lgbt-blue {
     background-color: rgb(0, 77, 255);
+    color: #fff;
 }
 
 .lgbt-purple {
     background-color: rgb(117, 7, 135);
+    color: #fff;
 }
 
 .l {
     border-bottom: none;
     padding-left:  3px;
     padding-right: 3px;
-    color: #fff;
 }
 
 p {
