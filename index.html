@@ -18,8 +18,12 @@
 <body>
     <div class="index-container">
         <div class="content">
-            <img width="100%" align="left" style="padding-bottom: 10px;" alt="banner" src="./assets/img/BannerXSXExtraLong.jpg">
-
+            <picture style="padding-bottom: 10px;" alt="banner">
+                <source media="(max-width: 500px)" srcset="./assets/img/banner/M.jpg" />
+                <source media="(max-width: 640px)" srcset="./assets/img/banner/L.jpg" />
+                <source media="(max-width: 740px)" srcset="./assets/img/banner/XL.jpg" />
+                <img width="100%" style="padding-top: 10px" src="./assets/img/banner/XXL.jpg" alt="XS" />
+            </picture>
             <div style="">
                 <p>
                     <a href="https://www.16personalities.com/infp-personality" rel="nofollow noopener noreferrer">#INFP-T</a>&nbsp;
