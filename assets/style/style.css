@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Oxygen&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Oxygen&display=swap'); */
 
 .index-container {
     min-height: 95vh;
@@ -38,9 +38,18 @@ svg {
 }
 
 html {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6em;
     margin: 0px;
+}
+
+::-moz-selection {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 200);
+}
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 200);
 }
 
 a {
