@@ -72,54 +72,40 @@ hr {
     margin: 0.3em 0;
 }
 
-lgbt-red {
-    padding-left:  3px;
-    padding-right: 3px;
+.lgbt-red {
     background-color: rgb(228, 3, 3);
-    color: #fff;
 }
 
-lgbt-orange {
-    padding-left:  3px;
-    padding-right: 3px;
+.lgbt-orange {
     background-color: rgb(255, 140, 0);
-    color: #fff;
 }
 
-lgbt-yellow {
-    padding-left:  3px;
-    padding-right: 3px;
+.lgbt-yellow {
     background-color: rgb(255, 237, 0);
     color: #000;
 }
 
-lgbt-green {
-    padding-left:  3px;
-    padding-right: 3px;
+.lgbt-green {
     background-color: rgb(0, 128, 38);
-    color: #fff;
 }
 
-lgbt-blue {
-    padding-left:  3px;
-    padding-right: 3px;
+.lgbt-blue {
     background-color: rgb(0, 77, 255);
-    color: #fff;
 }
 
-lgbt-purple {
-    padding-left:  3px;
-    padding-right: 3px;
+.lgbt-purple {
     background-color: rgb(117, 7, 135);
-    color: #fff;
 }
 
 .l {
     border-bottom: none;
+    padding-left:  3px;
+    padding-right: 3px;
+    color: #fff;
 }
 
 p {
-    margin-block-start: 0;
-    margin-bottom: 10px;
-    line-height: 170%;
+    margin-block-start: 8px;
+    margin-block-end: 8px;
+    line-height: 160%;
 }
